@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 
 #Global Variables
 app = Flask(__name__)
-loadedModel = pickle.load(open('lr model.pkl', 'rb'))
+loadedModel = pickle.load(open('lr Model.pkl', 'rb'))
 
 #User-defined functions/ API Routes
 @app.route('/', methods=['GET'])
